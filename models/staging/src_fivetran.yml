@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: fivetran
+    database: FIVETRAN
+    schema: GOOGLE_SHEETS
+
+    tables:
+      - name: PS_SCOPES
+      - name: OPPORTUNITIES
+      - name : SUITE_ACV
